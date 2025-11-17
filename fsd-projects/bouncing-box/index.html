@@ -81,9 +81,9 @@ var positionX = 0
          */
         function update() {
 positionX = positionX + 10; 
-moveBoxTo(200);
 moveBoxTo(positionX)
-        
+
+
 
           
         }
@@ -97,7 +97,8 @@ moveBoxTo(positionX)
          */
         function handleBoxClick() {
 
-
+positionX = 0;
+changeBoxText(0);
 
 
         }
